@@ -17,13 +17,13 @@ esphome:
 external_components:
   - source:
       type: git
-      url: https://github.com/andrewjswan/esphome-components
+      url: https://github.com/electro-nic/esphome-components
       ref: main
     components: [ shadow ]
     refresh: 60s
 
 dashboard_import:
-  package_import_url: github://andrewjswan/esphome-config/svitlobot.yaml@main
+  package_import_url: github://electro-nic/esphome-config/svitlobot.yaml@main
 
 esp8266:
   board: esp_wroom_02
